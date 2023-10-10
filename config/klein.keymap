@@ -140,7 +140,7 @@
                                     &lt MEDIA ESC  &lt BLU TAB  &rht NAV SPACE  &none  &kp K_MUTE   &rht NUM BSPC  &lt SYM DEL  &lt FUN RET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp K_VOLUME_UP2 K_VOLUME_DOWN2>;
         };
 
         nav_layer {
