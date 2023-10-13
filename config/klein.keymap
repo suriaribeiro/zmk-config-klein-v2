@@ -96,17 +96,9 @@
             timeout-ms = <40>;
         };
 
-        Enter {
-            bindings = <&kp RET>;
-            key-positions = <35 9>;
-            layers = <0>;
-            timeout-ms = <40>;
-        };
-
-        enter2 {
-            bindings = <&kp ENTER>;
-            key-positions = <8 35>;
-            layers = <0>;
+        apos {
+            bindings = <&kp APOS>;
+            key-positions = <0 1>;
         };
     };
 
