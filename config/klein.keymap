@@ -77,16 +77,16 @@
 
         undo {
             bindings = <&kp LG(Z)>;
-            key-positions = <22 21>;
+            key-positions = <1 2>;
             layers = <0>;
-            timeout-ms = <40>;
+            timeout-ms = <10>;
         };
 
         redo {
             bindings = <&kp LG(Y)>;
-            key-positions = <23 22>;
+            key-positions = <2 3>;
             layers = <0>;
-            timeout-ms = <40>;
+            timeout-ms = <10>;
         };
 
         printscreen {
